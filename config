@@ -9,9 +9,10 @@
     "modules-left": [
         "sway/workspaces",
         "sway/mode",
-        "sway/scratchpad",
+        "sway/scratchpad", 
+        "custom/wlogout",
         "custom/media",
-        "custom/wofi"
+        "custom/wofi",
     ],
     "modules-center": [
         "sway/window",
@@ -20,6 +21,7 @@
     "modules-right": [
         "mpd",
         "idle_inhibitor",
+        "custom/wlogout",
         "network",
         "power-profiles-daemon",
         "cpu",
@@ -229,5 +231,10 @@
         "format": "Menu",
         "escape": true,
         "on-click": "wofi --show drun"
+    },
+    "custom/wlogout": {
+        "format": "  ",
+        "escape": true,
+        "on-click": "wlogout"
     }
 }

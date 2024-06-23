@@ -91,7 +91,8 @@ button:hover {
 #mpd,
 #pulseaudio-slider,
 #custom-spotify,
-#custom-wofi {
+#custom-wofi,
+#custom-wlogout{
   padding: 5px 10px;
   margin: 0px 10px;
   color: #ffffff;
